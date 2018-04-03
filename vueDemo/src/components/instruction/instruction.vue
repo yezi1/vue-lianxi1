@@ -14,7 +14,6 @@
 		<router-link to="/vcloak">v-cloak</router-link>	
 		<router-link to="/vonce">v-once</router-link>
 	</p>
-	
 </template>
 
 <script>

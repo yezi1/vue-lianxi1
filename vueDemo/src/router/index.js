@@ -17,6 +17,17 @@ import vpre from '@/components/instruction/v-pre'
 import vcloak from '@/components/instruction/v-cloak'
 import vonce from '@/components/instruction/v-once'
 
+import api from '@/components/api/api'
+import component from '@/components/api/Component'
+import componentlabel from '@/components/api/Component-label'
+import componentprops from '@/components/api/Component-props'
+import componentrelation from '@/components/api/Component-relation'
+import template from '@/components/api/Template'
+import vuedirective from '@/components/api/Vue-directive'
+import vueextendpi from '@/components/api/Vue-extend'
+import vuelifecycle from '@/components/api/Vue-lifecycle'
+import vueset from '@/components/api/Vue-set'
+
 Vue.use(Router)
 
 export default new Router({
@@ -76,6 +87,46 @@ export default new Router({
 		{
 			path: '/vonce',
 			component: vonce
+		},
+		{
+			path: '/api',
+			component: api
+		},
+		{
+			path: '/component',
+			component: component
+		},
+		{
+			path: '/componentlabel',
+			component: componentlabel
+		},
+		{
+			path: '/componentprops',
+			component: componentprops
+		},
+		{
+			path: '/componentrelation',
+			component: componentrelation
+		},
+		{
+			path: '/template',
+			component: template
+		},
+		{
+			path: '/vuedirective',
+			component: vuedirective
+		},
+		{
+			path: '/vueextendpi',
+			component: vueextendpi
+		},
+		{
+			path: '/vuelifecycle',
+			component: vuelifecycle
+		},
+		{
+			path: '/vueset',
+			component: vueset
 		},
 	]
 })
