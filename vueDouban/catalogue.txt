@@ -1,0 +1,5 @@
+HotShowing.vue --- 热映
+seek.vue       --- 找片
+me.vue         --- 我的
+
+star.vue       --- 星级评价组件
